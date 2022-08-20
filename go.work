@@ -1,0 +1,10 @@
+go 1.18
+
+use (
+	./front-end
+	./back-end/broker-service
+	./back-end/authentication-service
+	./back-end/logger-service
+	./back-end/mail-service
+	./back-end/listener-service
+)
